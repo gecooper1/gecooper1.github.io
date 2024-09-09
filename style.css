@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code&family=Noto+Sans&family=Noto+Serif&display=swap');
+
+body {
+    text-align: left;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+h1 {
+    font-weight: 500;
+    font-family: 'Noto Serif', serif;
+}
+
+h2 {
+    font-weight: 300;
+    font-family: 'Noto Serif', serif;
+}
+
+.email {
+    display: inline-block;
+    box-sizing: border-box;
+    font-family: 'Fira Code', monospace;
+    /* font-size: 0.6em; */
+}
+
+.office {
+    display: inline-block;
+    box-sizing: border-box;
+    font-family: 'Noto Serif', serif;
+    /* font-size: 0.6em; */
+}
+
+.footer_text {
+    display: inline-block;
+    box-sizing: border-box;
+    font-family: 'Noto Serif', serif;
+    font-size: 0.6em;
+}
+
+a {
+    text-decoration: none;
+    color: maroon;
+}
+
+.page_header {
+    padding-bottom: 9px;
+    margin: 40px 0 20px;
+    border-bottom: 1px solid darkgray;
+}
+
+.bio {
+    margin-bottom: 1.5em;
+}
+
+.footer {
+    margin-bottom: 3em;
+}
+
+.container, footer {
+
+    margin-right: auto;
+    margin-left:  auto;
+  
+    max-width: 875px;
+  
+    padding-right: 10px;
+    padding-left:  10px;
+  
+}
+
+table, th, td {
+    border: 1px solid darkgray;
+    border-collapse: collapse;
+    padding: 10px;
+}
+
+.panel_list {
+    padding: 0 10px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+
+.accordion {
+    background-color: #eee;
+    color: black;
+    cursor: pointer;
+    padding: 12px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 1.17em;
+}
+
+.active, .accordion:hover {
+    background-color: #ccc;
+}
+
+.accordion:after {
+    content: "\25BC";
+    font-size: 13px;
+    color: rgb(163, 163, 163);
+    float: right;
+    margin-left: 5px;
+}
+
+.active:after {
+    content: "\25B2";
+}
+
+.navbar {
+    background-color: #eee;
+}
+
+#navbar_list ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: none;
+}
+  
+
+#navbar_list li {
+	display: inline-flex;
+}
+
+#navbar_list li a {
+    display: block;
+    color: black;
+    padding: 10px 10px;
+    text-decoration: none;
+}
+
+#navbar_list a:hover {
+    background-color: #ccc;
+}
